@@ -1,6 +1,6 @@
 # Restaurant_Data_Analysis
 
-![Logo](restaurant icon.jpg)
+![Logo](C:\Users\Sahana G M\OneDrive\Desktop\SQL\Projects data_sets\Restaurant+Orders+MySQL)
 
 
 use restaurant_db;
