@@ -1,6 +1,6 @@
 # Restaurant_Data_Analysis
 
-![Logo]()
+![Logo](restaurant icon.jpg)
 
 
 use restaurant_db;
