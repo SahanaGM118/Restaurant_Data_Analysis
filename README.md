@@ -5,17 +5,17 @@
 ## Analyzing Items Table
 
 use restaurant_db;
-### 1.View the menu items table
+#### 1.View the menu items table
 
 ```sql SELECT *
 from menu_items;
 ```
-### 2.Find the number of items on the menu
+#### 2.Find the number of items on the menu
 
 ```sql SELECT count(*)
 from menu_items;
 ```
-### 3.What are the least and most expensive iteams on the menu
+#### 3.What are the least and most expensive iteams on the menu
 
 ```sql SELECT  *
 FROM menu_items
