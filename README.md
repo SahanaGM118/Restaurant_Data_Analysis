@@ -4,7 +4,7 @@
 
 
 use restaurant_db;
-### -- 1) View the menu items table
+### 1) View the menu items table
 
 ```sql SELECT *
 from menu_items;
@@ -14,27 +14,27 @@ from menu_items;
 ```sql SELECT count(*)
 from menu_items;
 ```
--- 3.what are the least and most expensive iteams on the menu
+### 3.what are the least and most expensive iteams on the menu
 
 ```sql SELECT  *
 FROM menu_items
 ORDER BY price;
 ```
 
--- 4. how many italian dishes are in the menu
+### 4. how many italian dishes are in the menu
 
 ```sql SELECT  COUNT(*)
 FROM menu_items
 WHERE category = 'italian';
 ```
--- 5.what asre the lease and most expensive italian dishes are in the menu
+### 5.what asre the lease and most expensive italian dishes are in the menu
 
 ```sql SELECT *
 FROM menu_items
 WHERE category = 'italian'
 ORDER BY price; 
 ```
--- 6.how many dishes are in ecah category
+### 6.how many dishes are in ecah category
 
 ```sql SELECT
 category,
@@ -43,7 +43,7 @@ FROM menu_items
 GROUP BY category;
 ```
 
--- 7.what is the avergaae dishes price which each category
+### 7.what is the avergaae dishes price which each category
 
 
 ```sql SELECT
