@@ -1,6 +1,6 @@
 # Restaurant_Data_Analysis
 
-![Logo](restaurant icon.jpg)
+![Logo](restaurant_icon.jpg)
 
 ## Analyzing Items Table
 
