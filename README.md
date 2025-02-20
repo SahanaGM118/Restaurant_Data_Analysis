@@ -2,9 +2,10 @@
 
 ![Logo](restaurant_icon.jpg)
 ## Objective
-*Explore the Items Table to get what's on the New Menu
-*Explore the Order Table to get an idea of the data that's been Collected
-*Use both table to Undarstand how customers are reacting to the New Menu
+
+### *Explore the Items Table to get what's on the New Menu
+### *Explore the Order Table to get an idea of the data that's been Collected
+### *Use both table to Undarstand how customers are reacting to the New Menu
 
 ## Analyzing Items Table
 
