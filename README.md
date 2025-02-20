@@ -162,3 +162,8 @@ WHERE order_id IN ( 330,440,1957,2075,2675)
 GROUP BY  order_id,category
 ```
 
+
+
+This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles.
+
+- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/sahana-m-gowda-9b6a19196)
