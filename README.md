@@ -4,7 +4,7 @@
 
 
 use restaurant_db;
--- 1) View the menu items table
+### -- 1) View the menu items table
 
 ```sql SELECT *
 from menu_items;
