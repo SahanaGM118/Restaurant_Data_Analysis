@@ -2,6 +2,7 @@
 
 ![Logo](restaurant icon.jpg)
 
+## Analysing Items Table
 
 use restaurant_db;
 ### 1) View the menu items table
@@ -55,31 +56,31 @@ GROUP BY category;
 
 # Analysing Order Table
 
-## 1.View order dteails table
+### 1.View order dteails table
 
 ```sql SELECT *
 FROM order_details;
 ```
 
-## 2.what is the date range of the table
+### 2.what is the date range of the table
 
 ```sql SELECT *
 FROM order_details
 ORDER BY order_date;
 ```
 
-## 3.how many orders were made within this date range
+### 3.how many orders were made within this date range
 
 ```sql SELECT Count( DISTINCT	order_id) total_orders
 FROM order_details;
 ```
 
-## 4. how many items were orders within this dat_range
+### 4. how many items were orders within this dat_range
 
 ```sql SELECT Count(*) total_orders
 FROM order_details;
 ```
-## 5.which order had most number of items
+### 5.which order had most number of items
 
 ```sql SELECT order_id, count(item_id) AS NoOfIteams 
 FROM order_details
@@ -87,7 +88,7 @@ GROUP BY order_id
 ORDER BY  NoOfIteams DESC ;
 ```
 
-## 6. how many orders had more then 12 item_id
+### 6. how many orders had more then 12 item_id
 
 ```sql SELECT COUNT(order_id)
 FROM (
