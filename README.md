@@ -1,4 +1,4 @@
-### Restaurant_Data_Analysis
+## Restaurant_Data_Analysis
 
 ![Logo]()
 
